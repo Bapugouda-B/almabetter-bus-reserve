@@ -1,0 +1,83 @@
+.sidebar-back {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar {
+  height: auto;
+  margin: 16px 0px;
+}
+.sidebar-content {
+  width: 200px;
+  overflow: hidden;
+  word-wrap: break-word;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+.filter-clear {
+  border: 1.5px solid rgb(184, 176, 176);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 12px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.filter,
+.clear {
+  color: #3f3939;
+}
+
+.filter-content {
+  border: 1.5px solid rgb(184, 176, 176);
+  border-radius: 6px;
+  padding: 3px 12px 12px 12px;
+
+}
+
+.filter-heading {
+  color: #3f3939;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 4px 0px;
+  letter-spacing: 0.5px;
+}
+
+.morning-sess {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: small;
+  letter-spacing: 0.8px;
+  color: #565151;
+  padding: 4px 0px;
+}
+
+input[type="checkbox"], [type='radio'] {
+  accent-color: blue;
+}
+
+.filter-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+
+.icon {
+  font-size: small;
+  color: gray;
+}
+.input-field {
+  border: none;
+  width: 100%;
+  outline: none;
+}

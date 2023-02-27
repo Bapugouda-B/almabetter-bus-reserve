@@ -1,0 +1,348 @@
+.bus-container {
+  border-radius: 6px;
+  margin-top: 16px;
+  margin-left: 16px;
+  border: 1.5px solid #b8b0b0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.search-bus-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1.2px solid #b8b0b0;
+}
+.left-side-content {
+  width: 70%;
+  border-right: 1.5px solid #b8b0b0;
+  padding: 12px 20px;
+}
+
+.bus-details {
+  display: flex;
+  align-items: center;
+}
+
+.bus-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  margin-right: 10px;
+}
+
+.search-bus-rating {
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  background-color: green;
+  border-radius: 6px;
+  color: white;
+  padding: 2px 5px;
+  margin-right: 4px;
+}
+
+.bus-details > span {
+  font-size: 11px;
+  color: gray;
+  letter-spacing: 0.4px;
+}
+
+.booking-types > p {
+  font-size: small;
+  color: gray;
+}
+
+.bus-date-time {
+  margin: 10px 0px;
+}
+
+.bus-date-time > p {
+  font-size: 16px;
+  color: #322d2d;
+  font-weight: bold;
+}
+
+.extra-services > a > p {
+  margin-top: 10px;
+  color: blue;
+}
+
+.extra-services {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.bus-date-time {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.bus-date-time > hr {
+  width: 20px;
+}
+
+.right-side-content {
+  width: 30%;
+  text-align: center;
+}
+
+.right-side-content p {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.right-side-content span {
+  font-size: 14px;
+  color: gray;
+}
+
+.right-side-content h2 {
+  font-size: 35px;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.view-btn {
+  border: none;
+  background-color: orange;
+  padding: 10px 35px;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+/* .bus-seat-container {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0,1,0,1);
+} */
+
+.bus-seat-container-show {
+  padding: 20px;
+}
+
+.seat-prize-container > h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.seat-prize-content {
+  display: flex;
+  align-items: last baseline;
+  justify-content: space-between;
+}
+
+.seat-prize-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.seat-prize-details {
+  color: gray;
+  font-size: 15px;
+}
+.seat-prize {
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 10px 15px;
+  border: 0.5px solid #b8b0b0;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 1.5px 1.5px 2px gray;
+  cursor: pointer;
+}
+
+.seat-prize > span {
+  font-size: 14px;
+  color: gray;
+}
+
+.seat-prize > input {
+  padding: 0px;
+  margin: 0px;
+}
+
+.seat-type-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.birth-type {
+  width: 100%;
+  height: 335px;
+  align-self: start;
+}
+
+.birth-container {
+  display: flex;
+  height: 45%;
+  border: 1.5px solid #b8b0b0;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.lower-birth-container {
+  display: flex;
+  height: 45%;
+  border: 1.5px solid #b8b0b0;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: 28px;
+}
+
+.birth-name {
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.birth-name > p {
+  position: absolute;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: gray;
+  transform: rotate(-90deg);
+}
+
+.birth-seats {
+  width: 100%;
+  align-self: center;
+}
+
+.double-seat {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 6px;
+}
+
+.single-seat {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-top: 20px;
+  gap: 6px;
+}
+
+.bus-seat {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 6px;
+  width: 52px;
+  height: 25px;
+  border: 1.2px solid #b8b0b0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.bus-seat > div {
+  height: 12px;
+  width: 3px;
+  border: 1.2px solid #b8b0b0;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.boarding-drop-container {
+  padding: 12px;
+  border: 1.4px solid #b8b0b0;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.boarding-drop-container > p {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+
+.amount-details {
+  display: flex;
+  align-items: first baseline;
+  justify-content: space-between;
+}
+
+.pickup-container,
+.drop-container {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+  gap: 80px;
+  font-size: 10px;
+}
+
+.pickup-point > p,
+.drop-point > p {
+  margin: 0;
+  color: #3a3030;
+  font-weight: bold;
+}
+
+.pickup-point > span,
+.drop-point > span {
+  font-size: 12px;
+  color: gray;
+}
+
+.pickup-time > p,
+.drop-time > p {
+  color: #3a3030;
+  font-weight: bold;
+}
+
+.seat-number {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #3a3030;
+  font-weight: bold;
+}
+
+.amount-container p {
+  color: #3a3030;
+  font-weight: bold;
+}
+
+.amount > p {
+  margin: 0;
+  color: #3a3030;
+  font-weight: bold;
+}
+
+.amount > span {
+  font-size: 12px;
+  color: gray;
+}
+
+.amount {
+  margin: 0;
+}
+
+.proceed-book{
+  border: none;
+  width: 100%;
+  background-color: orange;
+  padding: 10px 0px;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+}
